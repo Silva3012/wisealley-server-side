@@ -1,0 +1,79 @@
+p {
+  font-family: "BentonSans Regular", sans-serif;
+}
+
+.playagain {
+  margin-top: 10px;
+}
+
+/* styling for all the grids as one*/
+.grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* styling for the individual grids*/
+.col-4 {
+  border: thick solid orange;
+  border-radius: 20px;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-question {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/* == BELOW IS SOME OPTIONAL CSS THAT WE COULD REVISIT == */
+/* .img-fluid {
+  border: #cccccc thick solid;
+  border-radius: 25%;
+}
+
+body {
+  background-image: url("../images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */ ;
