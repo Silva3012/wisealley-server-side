@@ -65,17 +65,17 @@
       <!-- Question and answers here-->
       <div class="modal-question hidden" id="questionpop">
         <button class="close-modal">&times;</button>
-        <!-- <% for (let i=0; i<questions.length; i++) { %> -->
+        <% for (let i=0; i<questions.length; i++) { %>
         <p><%= questions[i].question %></p>
-        <input type="radio" id="a1" name="answer" />
-        <label for="a1"><%= questions[i].a %></label><br />
-        <input type="radio" id="b1" name="answer" />
-        <label for="b1"><%= questions[i].b %></label><br />
-        <input type="radio" id="c1" name="answer" />
-        <label for="c1"><%= questions[i].c %></label><br />
-        <input type="radio" id="d1" name="answer" />
-        <label for="d1"><%= questions[i].d %></label><br />
-        <!-- <% } %> -->
+            <input type="radio" id="a1" name="answer" />
+            <label for="a1"><%= questions[i].a %></label><br />
+            <input type="radio" id="b1" name="answer" />
+            <label for="b1"><%= questions[i].b %></label><br />
+            <input type="radio" id="c1" name="answer" />
+            <label for="c1"><%= questions[i].c %></label><br />
+            <input type="radio" id="d1" name="answer" />
+            <label for="d1"><%= questions[i].d %></label><br />
+        <% } %>
         <!-- <a href="#" class="close-modal">Close</a> -->
       </div>
       <div class="overlay hidden"></div>
