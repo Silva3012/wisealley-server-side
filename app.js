@@ -31,7 +31,6 @@ app.get("/", function (req, res) {
     if (err) {
       console.log(err);
     } else {
-      // console.log(foundQuestions);
       res.render("index", { questions: foundQuestions });
     }
   });
